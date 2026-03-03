@@ -1,5 +1,5 @@
 # Thyma 🧠
-
+![Thyma Logo](https://pub-a0f6f56fff3c42b9bb30bd2143c99754.r2.dev/Screenshot%202026-03-03%20at%201.31.47%E2%80%AFAM.png)
 **Total recall for your AI agents.**
 
 > Hyperthymesia is the rare condition where nothing is ever forgotten — every experience, perfectly preserved, instantly retrievable. Thyma gives your agent the same gift.
