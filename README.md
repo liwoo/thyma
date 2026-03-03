@@ -4,9 +4,11 @@
 
 > Hyperthymesia is the rare condition where nothing is ever forgotten — every experience, perfectly preserved, instantly retrievable. Thyma gives your agent the same gift.
 
-Your OpenClaw agent is smart. But every time you start a new conversation, it forgets everything — your preferences, what worked last time, the quirks it discovered about the tools it uses. You end up repeating yourself. It ends up relearning the same lessons.
+Your [OpenClaw](https://openclaw.ai/) or [ClaudeCode](https://claude.com/product/claude-code) agent is smart. But every time you start a new conversation, it forgets everything — your preferences, what worked last time, the quirks it discovered about the tools it uses. You end up repeating yourself. It ends up relearning the same lessons.
 
-Thyma fixes that.
+Yes it has skills. And skills are great. We love skills. But skills are static. They don't capture the agent's lived experience, only its learned experience.
+
+[Thyma](https://thyma.chienda.com) fixes that.
 
 -----
 
@@ -42,7 +44,7 @@ That’s the entire installation. Thyma stores everything as plain text files on
 
 -----
 
-## Getting Started in 5 Minutes
+## Getting Started in 5 Minutesv (OpenClaw)
 
 ### Step 1 — Add the Thyma skill to OpenClaw
 
@@ -52,7 +54,7 @@ Download the Thyma skill file and place it in your OpenClaw skills folder:
 # On Mac / Linux
 mkdir -p ~/.openclaw/skills/thyma
 curl -o ~/.openclaw/skills/thyma/SKILL.md \
-  https://raw.githubusercontent.com/chienda/thyma/main/skills/openclaw/SKILL.md
+  https://raw.githubusercontent.com/liwoo/thyma/main/skills/openclaw/SKILL.md
 ```
 
 That’s the file that teaches your agent when and how to use its memory. Without it, the binary is installed but your agent doesn’t know it exists.
@@ -255,7 +257,7 @@ Yes. Once the skill is installed, you don’t need to run any commands yourself.
 
 **Will this slow my agent down?**
 
-No meaningfully. Memory reads and writes are file operations — they complete in milliseconds. You won’t notice it.
+Not meaningfully. Memory reads and writes are file operations — they complete in milliseconds. You won’t notice it.
 
 **What’s the difference between this and OpenClaw’s built-in memory?**
 
